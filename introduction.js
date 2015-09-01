@@ -17,14 +17,14 @@ var major = "computing: webdesign emphasis";
 /*4. Creates	a	new	variable	`classYears`,	and	sets	its	value	equal	to	an	array	containing	
 the	following	four	(4)	values:	"Freshman",	"Sophomore",	"Junior",	"Senior".*/
 
-var classYears = "Senior ";
+var classYears = ["Freshman ","Sophomore ","Junior ","Senior "];
 
 /*5. Creates	a	new	variable		`message`,	and	sets	its	value	equal	to	a	string	that	is	in	this	
 form:	"Hello!	My	name	is	<NAME>.	I'm	<AGE>	years	old,	and	I	am	a	<CLASS_YEAR>	
 <MAJOR>	at	Union	College."	Note	that	<CLASS_YEAR>	should	refer	to	the	correct	
 array	item	representing	your	class	year.*/
 
-var message = "Hello! My name is " + name + ". Im " + age + " years old, and I am a " + classYears + major + " at Union College.";
+var message = "Hello! My name is " + name + ". Im " + age + " years old, and I am a " + classYears[3] + major + " at Union College.";
 //var test = "Hello! My name is" + name + ".";
 
 
